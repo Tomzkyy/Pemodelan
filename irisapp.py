@@ -8,7 +8,7 @@ import numpy as np
 iris = datasets.load_iris()
 
 
-st.title("KOK BISA KEREN GITU BANG, GIMANA CARANYA?")
+st.title("App Prediksi Iris")
 
 img = Image.open("irisall.jpg")
 st.image(img, use_column_width=False)
