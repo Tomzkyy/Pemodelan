@@ -8,7 +8,7 @@ import numpy as np
 iris = datasets.load_iris()
 
 
-st.title("App Prediksi Iris dengan Algoritma KNN")
+st.title("Iris Flower Classification App using K-Nearest Neighbors (KNN) Algorithm")
 
 img = Image.open("irisall.jpg")
 st.image(img, use_column_width=False)
